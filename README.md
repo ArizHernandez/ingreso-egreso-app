@@ -1,27 +1,24 @@
-# IngresoEgresoApp
+# Ingresos-Egresos App
+  ## Pasos importates por hacer para que el programa corra correctamente:
+  - Instalar los node_modules con `npm install` 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.2.6.
+Este proyecto consta de un panel administrativo y login de usuarios, la finalidad de este proyecto son educativos poniendo en practica NGRX en un proyecto mas apegado a la realidad
 
-## Development server
+## Demo
+https://arizhernandez.github.io/ingreso-egreso-app
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Preview
+  
+  ### Panel administrativo
+  ![panel](https://user-images.githubusercontent.com/37966712/113625757-f3e92a80-9626-11eb-92fe-5f6dbcb5cb80.png)
 
-## Code scaffolding
+  ## Login
+  ![Login](https://user-images.githubusercontent.com/37966712/113625907-2004ab80-9627-11eb-9c77-b2de7262df65.png)
+  ![Register](https://user-images.githubusercontent.com/37966712/113625973-33177b80-9627-11eb-9c6e-ae8465c9578d.png)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+-------
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Mas informacion y herramientas utilizadas:
+ - **Angular** ( Framework utilizado en su version 11.2.6 )
+ - **NGRX** ( Last release )
+ - **Panel administrativo** (Panel creado por Fernando Herrera https://fernando-herrera.com)
