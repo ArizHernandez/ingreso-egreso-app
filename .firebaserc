@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "fir-fotos-94a6f": {
+      "hosting": {
+        "ingreso-egreso-app": [
+          "fir-fotos-94a6f"
+        ]
+      }
+    }
+  }
+}
