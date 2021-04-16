@@ -4,4 +4,8 @@ export class UserModel{
     public name: string | undefined,
     public email: string | null |undefined ,
   ){}
+  
+  static newUserModel({ uid = '', name = '', email = '' }){
+    return new UserModel(uid, name, email)
+  }
 }
