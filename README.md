@@ -1,4 +1,4 @@
-# Ingresos-Egresos App
+# Ingresos-Egresos App (not responsive)
   ## Pasos importates por hacer para que el programa corra correctamente:
   - Instalar los node_modules con `npm install` 
 
