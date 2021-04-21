@@ -5,7 +5,7 @@
 Este proyecto consta de un panel administrativo y login de usuarios, la finalidad de este proyecto son educativos poniendo en practica NGRX en un proyecto mas apegado a la realidad
 
 ## Demo
-https://arizhernandez.github.io/ingreso-egreso-app
+[View demo](https://arizhernandez.github.io/ingreso-egreso-app/)
 
 ## Preview
   
