@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { environment } from '../environments/environment';
 
@@ -24,7 +23,6 @@ import { appReducers } from './app.reducer';
     BrowserModule,
     AppRoutingModule,
     PagesModule,
-    ReactiveFormsModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
     AngularFireAuthModule,

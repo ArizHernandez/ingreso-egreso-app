@@ -11,6 +11,7 @@ import { AngularFirestore } from '@angular/fire/firestore';
 
 import { UserModel } from '../models/user.model';
 import { Subscription } from 'rxjs';
+import { AppStateWithIngreso } from '../ingreso-egreso/ingreso-egreso.reducer';
 
 @Injectable({
   providedIn: 'root'
@@ -22,7 +23,7 @@ export class AuthService {
 
   constructor( private auth:AngularFireAuth,
                private firestore: AngularFirestore,
-               private store:Store<AppState>) {}
+               private store:Store<AppStateWithIngreso>) {}
 
   initAuthListener(){
     this.auth.authState.subscribe( userAuth => {
