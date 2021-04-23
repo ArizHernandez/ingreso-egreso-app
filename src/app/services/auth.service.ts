@@ -23,7 +23,7 @@ export class AuthService {
 
   constructor( private auth:AngularFireAuth,
                private firestore: AngularFirestore,
-               private store:Store<AppStateWithIngreso>) {}
+               private store:Store<AppState>) {}
 
   initAuthListener(){
     this.auth.authState.subscribe( userAuth => {
